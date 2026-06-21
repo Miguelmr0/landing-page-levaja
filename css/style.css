@@ -107,7 +107,23 @@ body{
 
 /* Fim do botão de cadastro */
 
+/* Estilização da imagem de fundo */
 
+.conteudo{
+
+    background-image: url("../img/conceito-de-entrega-on-line-entrega-de-resposta-rapida-por-scooter-motocicleta-generativa-ai_90099-6853.jpg");
+
+    background-repeat: repeat;
+
+    background-size: cover;
+
+    background-position: center;
+
+    padding: 40px 0;
+
+}
+
+/* Fim da estilização da imagem de fundo */
 
 /* Início da seção de benefícios */
 
@@ -206,7 +222,7 @@ ul li{
 
     font-size: 22px;
 
-    color: #e94560;
+    color: #000000;
 
     text-align: center;
 
@@ -426,7 +442,7 @@ input[type="submit"]{
 
     padding: 8px 14px;
 
-    font-size: 13px;
+    font-size: 40px;
 
     font-weight: bold;
 

@@ -43,7 +43,30 @@ body{
 
 /* Fim do cabeçalho principal */
 
+/* Destaque visual exibido no canto superior do cabeçalho */
 
+.badge{
+
+    position: absolute;
+
+    top: 20px;
+
+    right: 20px;
+
+    background-color: #e94560;
+
+    color: white;
+
+    padding: 8px 14px;
+
+    font-size: 40px;
+
+    font-weight: bold;
+
+    letter-spacing: 0.5px;
+
+}
+/*Fim do destaque visual exibido no canto superior do cabeçalho */
 
 /* Início da logo */
 
@@ -420,35 +443,6 @@ input[type="submit"]{
 
 }
 
-/* Fim do link de retorno */
 
 
-
-/* Início do selo de vagas */
-
-/* Destaque visual exibido no canto superior do cabeçalho */
-
-.badge{
-
-    position: absolute;
-
-    top: 20px;
-
-    right: 20px;
-
-    background-color: #e94560;
-
-    color: white;
-
-    padding: 8px 14px;
-
-    font-size: 40px;
-
-    font-weight: bold;
-
-    letter-spacing: 0.5px;
-
-}
-
-/* Fim do selo de vagas */
 

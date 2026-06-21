@@ -1,0 +1,438 @@
+/* Início do estilo geral da página */
+
+/* Define as configurações básicas utilizadas em toda a página */
+
+body{
+
+    background-color: #14171b;
+
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+
+    color: #1a1a1a;
+
+}
+
+/* Fim do estilo geral da página */
+
+
+
+/* Início do cabeçalho principal */
+
+/* Área superior da página contendo a logo,
+   o texto de apresentação e o botão de cadastro */
+
+.topo{
+
+    width: 100%;
+
+    background-color: #16161f;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 60px 20px;
+
+    position: relative;
+
+    box-sizing: border-box;
+
+}
+
+/* Fim do cabeçalho principal */
+
+
+
+/* Início da logo */
+
+/* Personaliza o título principal da plataforma */
+
+.logo{
+
+    font-size: 52px;
+
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+
+    letter-spacing: 2px;
+
+}
+
+/* Fim da logo */
+
+
+
+/* Início do subtítulo */
+
+/* Texto complementar exibido abaixo da logo */
+
+.subtitulo{
+
+    font-size: 18px;
+
+    color: #a0aec0;
+
+    margin: 0 0 30px 0;
+
+}
+
+/* Fim do subtítulo */
+
+
+
+/* Início do botão de cadastro */
+
+/* Estilização do botão principal da página */
+
+.btn-cadastro{
+
+    background-color: #e94560;
+
+    color: white;
+
+    text-decoration: none;
+
+    padding: 14px 28px;
+
+    border: none;
+
+    text-transform: uppercase;
+
+    display: inline-block;
+
+}
+
+/* Fim do botão de cadastro */
+
+
+
+/* Início da seção de benefícios */
+
+/* Bloco que apresenta as principais vantagens
+   para novos entregadores */
+
+.beneficios{
+
+    width: 600px;
+
+    margin: 40px auto;
+
+    padding: 30px;
+
+    background-color: white;
+
+    border-top: 4px solid #e94560;
+
+}
+
+/* Fim da seção de benefícios */
+
+
+
+/* Início do título da seção de benefícios */
+
+/* Destaca o título da área de benefícios */
+
+.beneficios h2{
+
+    font-size: 22px;
+
+    color: #e94560;
+
+    margin-top: 0;
+
+}
+
+/* Fim do título da seção de benefícios */
+
+
+
+/* Início da lista de benefícios */
+
+/* Define a aparência da lista principal */
+
+ul{
+
+    list-style-type: square;
+
+    padding-left: 20px;
+
+    margin: 0;
+
+}
+
+ul li{
+
+    padding: 6px 0;
+
+    font-size: 16px;
+
+    color: #444;
+
+}
+
+/* Fim da lista de benefícios */
+
+
+
+/* Início da seção de vantagens */
+
+/* Área que contém os cards informativos */
+
+.vantagens{
+
+    width: 860px;
+
+    margin: 40px auto;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+/* Fim da seção de vantagens */
+
+
+
+/* Início do título da seção de vantagens */
+
+/* Centraliza e destaca o título da seção */
+
+.vantagens-titulo{
+
+    font-size: 22px;
+
+    color: #e94560;
+
+    text-align: center;
+
+    margin: top 15px;
+
+}
+
+/* Fim do título da seção de vantagens */
+
+
+
+/* Início do agrupamento dos cards */
+
+/* Organiza os cards na página */
+
+.cards{
+
+    width: 100%;
+
+    text-align: center;
+
+}
+
+/* Fim do agrupamento dos cards */
+
+
+
+/* Início dos cards */
+
+/* Define o visual individual de cada card */
+
+.card{
+
+    width: 380px;
+
+    display: inline-block;
+
+    background-color: white;
+
+    border: 1px solid #dde3ea;
+
+    border-top: 4px solid #e94560;
+
+    padding: 24px;
+
+    margin: 0 10px 20px 10px;
+
+    box-sizing: border-box;
+
+}
+
+/* Fim dos cards */
+
+
+
+/* Início do título dos cards */
+
+/* Destaca o assunto principal de cada card */
+
+.card-titulo{
+
+    font-size: 15px;
+
+    color: #e94560;
+
+    text-transform: uppercase;
+
+    margin: 0 0 10px 0;
+
+    letter-spacing: 1px;
+
+}
+
+/* Fim do título dos cards */
+
+
+
+/* Início da descrição dos cards */
+
+/* Texto explicativo exibido dentro dos cards */
+
+.card-descricao{
+
+    font-size: 15px;
+
+    color: #555;
+
+    margin: 0;
+
+    line-height: 1.6;
+
+}
+
+/* Fim da descrição dos cards */
+
+
+
+/* Início do formulário */
+
+/* Área utilizada para o cadastro dos entregadores */
+
+.formulario{
+
+    width: 600px;
+
+    margin: 40px auto;
+
+    padding: 30px;
+
+    border: 1px solid #dde3ea;
+
+    background-color: white;
+
+    box-sizing: border-box;
+
+}
+
+/* Fim do formulário */
+
+
+
+/* Início do título do formulário */
+
+.formulario h2{
+
+    font-size: 22px;
+
+    color: #1a1a2e;
+
+    margin-top: 0;
+
+}
+
+/* Fim do título do formulário */
+
+
+
+/* Início dos campos do formulário */
+
+/* Define a aparência dos campos de entrada */
+
+input{
+
+    width: 100%;
+
+    padding: 10px 12px;
+
+    border: 1px solid #ccc;
+
+    font-size: 15px;
+
+    box-sizing: border-box;
+
+}
+
+/* Fim dos campos do formulário */
+
+
+
+/* Início do botão de envio */
+
+input[type="submit"]{
+
+    background-color: #1a1a2e;
+
+    color: white;
+
+    border: none;
+
+    cursor: pointer;
+
+    font-size: 15px;
+
+    padding: 12px;
+
+    text-transform: uppercase;
+
+}
+
+/* Fim do botão de envio */
+
+
+
+/* Início do link de retorno */
+
+/* Link utilizado para voltar à página principal */
+
+.link-rodape{
+
+    color: #1a1a2e;
+
+    text-decoration: underline;
+
+    font-size: 14px;
+
+}
+
+/* Fim do link de retorno */
+
+
+
+/* Início do selo de vagas */
+
+/* Destaque visual exibido no canto superior do cabeçalho */
+
+.badge{
+
+    position: absolute;
+
+    top: 20px;
+
+    right: 20px;
+
+    background-color: #e94560;
+
+    color: white;
+
+    padding: 8px 14px;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    letter-spacing: 0.5px;
+
+}
+
+/* Fim do selo de vagas */
+
